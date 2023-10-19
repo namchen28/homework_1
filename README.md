@@ -1,16 +1,12 @@
 # homework_1
 
-A new Flutter project.
+Task: 
+Creating UI for "Feed", "Rating", "Images", "Blog Post" screen 
+(Optional): Creating UI for "Profile/Posts" screen
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Screenshots: 
+![Feed Screen](Screenshot_20231019-142555.jpg)
+![Blog Post Screen](Screenshot_20231019-142626.jpg) 
+![Image Screen](Screenshot_20231019-142705.jpg) 
+![Rating Screen](Screenshot_20231019-142750.jpg)
+![Profile Post SCreen](Screen_Recording_20231019-141650_1.gif)
