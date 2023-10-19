@@ -51,6 +51,9 @@ class FeedPage extends StatelessWidget {
           scrollDirection: Axis.vertical,
           child: Column(
             children: <Widget>[
+              SizedBox(
+                height: 16,
+              ),
               searchBar,
               const SizedBox(
                 height: 10,

@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'package:custom_sliding_segmented_control/custom_sliding_segmented_control.dart';
@@ -16,7 +17,7 @@ class _ProfilePostPageState extends State<ProfilePostPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.greenAccent,
+        backgroundColor: CupertinoColors.systemGreen,
         title: Text('Profile',
             style: TextStyle(
                 color: Colors.white,
@@ -71,20 +72,20 @@ class _ProfilePostPageState extends State<ProfilePostPage> {
                     ),
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(32),
-                        color: const Color.fromARGB(255, 232, 232, 232)),
+                        color: CupertinoColors.systemGrey5),
                     children: {
                       1: Text(
                         'Posts',
                         style: TextStyle(
                             color: current == 1
-                                ? Colors.greenAccent
+                                ? CupertinoColors.systemGreen
                                 : Colors.grey),
                       ),
                       2: Text(
                         'Photos',
                         style: TextStyle(
                             color: current == 2
-                                ? Colors.greenAccent
+                                ? CupertinoColors.systemGreen
                                 : Colors.grey),
                       ),
                     },
@@ -112,7 +113,7 @@ class _ProfilePostPageState extends State<ProfilePostPage> {
 
 final double coverHeight = 200;
 Widget coverContainer = Container(
-  decoration: BoxDecoration(color: Colors.greenAccent),
+  decoration: BoxDecoration(color: CupertinoColors.systemGreen),
   height: coverHeight,
 );
 
@@ -158,5 +159,6 @@ Widget photoBox = Container(
   padding: EdgeInsets.all(8),
   height: 350,
   decoration: BoxDecoration(
-      color: Colors.grey, borderRadius: BorderRadius.circular(8.0)),
+      color: CupertinoColors.systemGrey5,
+      borderRadius: BorderRadius.circular(8.0)),
 );
